@@ -13,7 +13,6 @@
     $fecha = isset($_COOKIE['fecha']) ? $_COOKIE['fecha'] : '';
     
 
-
     // Título de la página para el head
     $titulo = "Nueva Noticia | Actual News";
     // Incluir el archivo de diseño HTML con el título formateado
