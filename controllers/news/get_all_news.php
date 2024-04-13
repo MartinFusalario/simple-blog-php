@@ -7,7 +7,7 @@ function obtenerAllNoticias($orden) {
     $noticiaModel = new NoticiaModel();
     
     // Definir la cantidad de noticias por página y obtener la página actual
-    $noticias_por_pagina = 5; // Por ejemplo, mostrar 10 noticias por página
+    $noticias_por_pagina = 5; // Por ejemplo, mostrar 5 noticias por página
     $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1; // Obtener la página actual, 1 si no se especifica
     
     // Obtener las noticias para la página actual
